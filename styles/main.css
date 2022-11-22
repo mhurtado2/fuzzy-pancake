@@ -9,6 +9,12 @@ body {
 h1 {
     text-align: center;
     color: goldenrod;
+    font-family: "Cold Night for Alligators Font"
+    src: url('https://www.1001fonts.com/cold-night-for-alligators-font.html'), format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 }
 
 
@@ -36,6 +42,9 @@ header {
     flex-direction: column;
     align-items: center;
     background-color: rgb(88, 240, 88);
+    font-family: 'Roboto Serif', serif;
+    color: crimson;
+   
 }
 
 .cake {
