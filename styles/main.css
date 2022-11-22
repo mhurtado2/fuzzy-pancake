@@ -7,6 +7,9 @@ header {
     flex-direction: column;
     align-items: center;
     background-color: rgb(88, 240, 88);
+    font-family: 'Roboto Serif', serif;
+    color: crimson;
+   
 }
 
 .cake {
