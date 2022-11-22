@@ -1,34 +1,5 @@
 
-/*
 
-body {
-    background-color: aquamarine;
-
-}
-
-h1 {
-    text-align: center;
-    color: goldenrod;
-}
-
-
-img {
-    border-radius: 5px 5px 0 0;
-    width: 250px;
-  }
-
-  aside {
-    padding-left: .5rem;
-    margin-left: .5rem;
-    box-shadow: inset 5px 0 5px -5px #29627e;
-    font-style: italic;
-    color: #29627e;
-    float: right;
-}
-.fish card {
-  margin: 20px 20px 20px 20px;
-}
-*/
 header {
     display: flex;
     margin-top: auto;
@@ -57,3 +28,25 @@ footer {
     background-color: crimson;
     
 }
+
+.pancake-holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 20px 20px 20px;
+    flex-basis: 25%;
+}
+
+
+.pancake-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 10px; /* 5px rounded corners */
+    background-color: rgb(170, 170, 240);
+    margin-bottom: 10px;
+    text-align: center;
+    flex-basis: 25%;
+  }
+
+
+
